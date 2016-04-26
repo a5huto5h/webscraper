@@ -134,7 +134,7 @@ def crawlToCSV(csvfile):
 	return placeHolder
 
 if __name__ == "__main__":
-	masterFileName = "RollNo-DOB-1-100000.csv"
+	masterFileName = "Inputs-1000.csv"
 	webURL = 'http://cbseresults.nic.in/jee_main/jee_cbse_2015.htm'
 
 	with open(masterFileName, 'rb') as infh:
@@ -144,7 +144,7 @@ if __name__ == "__main__":
 
 		for row in reader:
 			records = records + incr
-			fileName = "RollNo-DOB-1-" + str(records) + ".csv"
+			fileName = "Inputs-1000-Batch-" + str(records) + ".csv"
 			fileName = os.path.join('/Users/Ashutosh/Projects/cbsescraper/', fileName)
 			with open (fileName, 'wb') as outfh:
 				writer = csv.writer(outfh)
