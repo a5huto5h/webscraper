@@ -17,10 +17,10 @@ Python scraper to collect JEE Main 2015 data from CBSE website
   
 **Step 2** - Install required packages
   
-  pip install -r requirements.rst
+    pip install -r requirements.rst
   
 **Step 3** - Run cbsescraper.py
   
-  python cbsescraper.py
+    python cbsescraper.py
   
 **Step 4** - Enjoy automated scraping :)
