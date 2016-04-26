@@ -10,9 +10,6 @@ Python scraper to collect JEE Main 2015 data from CBSE website
 **Step 1** - Create virtual environment and activate it
   
     virtualenv venv
-  
-  and then
-  
     source venv/bin/activate
   
 **Step 2** - Install required packages
