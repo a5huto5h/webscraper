@@ -1,5 +1,5 @@
 # CBSE Scraper
-Python scraper to collect JEE Main 2015 data from CBSE website
+Python scraper that I made to collect JEE Main 2015 data from CBSE website. This scraper does not work now as the URL has shifted. Please check the correct URL from CBSE Website and make suitable changes to the codebase to get it working again.
 
 # Files
 **cbsescraper.py** - the script to take input data from the input file, submit on cbse website and collect the required output data from the result
