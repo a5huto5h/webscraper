@@ -146,7 +146,7 @@ if __name__ == "__main__":
         for row in reader:
             records = records + incr
             fileName = "Inputs-1000-Batch-" + str(records) + ".csv"
-            fileName = os.path.join('/Users/Ashutosh/Projects/cbsescraper/', fileName)
+            fileName = os.path.join('/Users/Ashutosh/Projects/WebScraper/', fileName)
             with open(fileName, 'wb') as outfh:
                 writer = csv.writer(outfh)
                 writer.writerow(row)
